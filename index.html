@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Mi Agenda</h1>
+    Numero :
+    <input id="txtNumero" type="text" name="" value="">
+    Nombre :
+    <input id="txtNombre" type="text" name="" value="">
+    <br><br>
+    <button type="button" name="button" onclick="grabarDato()">Agregar Contacto</button>
+    <button type="button" name="button" onclick="eliminarDato(txtNumero.value)">Eliminar Contacto</button>
+    <button type="button" name="button" onclick="eliminarAll()">Eliminar Toda la Agenda</button>
+    <h2>Listado de Contactos</h2>
+    <div id="mostrarData">
+    </div>
+  </body>
+  <script src="agenda.js"></script>
+
+</html>
